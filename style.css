@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 50%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+select,
+textarea {
+    border-radius: 7px;
+    width: 100%;
+    padding: 10px;
+}
+
+input[type='submit']:hover {
+    background-color: #FFA07A; 
+}
+
+input[type='submit'] {
+    background-color: #FF4500; 
+    color: white;
+    cursor: pointer;
+}
+
+textarea {
+    height: 200px;
+}

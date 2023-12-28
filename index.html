@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Auto Parts</title>
+</head>
+<body>
+    <h1>Great Auto Parts inc. - Order Form</h1>
+
+    <form action="#" method="post">
+        <label> First Name:</label>
+        <input type="text" id="fname" placeholder="Enter your First Name">
+
+        <label> Last Name:</label>
+        <input type="text" id="lname" placeholder="Enter your Last Name">
+
+        <label for="email"> Email:</label>
+        <input type="text" id="email" placeholder="Enter your Email">
+
+        <label for="phone"> Phone number:</label>
+        <input type="tel" id="phone" placeholder="05XXXXXXXX" pattern="[0-9]{10}">
+
+        <label> Make:</label>
+        <select name="make" id="make">
+            <option value="Toyota">Toyota</option>
+            <option value="Honda">Honda</option>
+            <option value="Hyundai">Hyundai</option>
+            <option value="Ford">Ford</option>
+        </select>
+        
+        <label> Model:</label>
+        <input type="text" id="model" placeholder="Model">
+
+
+        <label for="year"> Year:</label>
+        <input type="number" id="year" placeholder="Year">
+
+
+        <label for="date"> Date:</label>
+        <input type="date" id="date" placeholder="Date">
+
+
+        <label> Spare Part:</label>
+        <input type="text" id="spare" placeholder="Enter the spare part you need">
+
+
+        <label> Quantity:</label>
+        <input type="number" id="quantity" placeholder="Enter the quantity of the spare part you need">
+
+
+        <label> Comment:</label>
+        <textarea id="comment" placeholder="Enter your comment" ></textarea>
+
+        
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
